@@ -29,23 +29,167 @@ header .logo{
     font-size: 40px;
 }
 
-header nav a{
+a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     margin-right: 10px;
 }
 
-header nav a:hover{
+a:hover{
     color: #AAA;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.botao-play{
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    border-radius: 8px;
+}
+
+.botao-play:hover{
+    background-color: gray;
+    color: black;
+}
+
+.botao-play i{
+    margin-right: 12px;
+}
+
+.botao-info{
+    background-color:gray;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    border-radius: 8px;
+}
+
+.botao-info:hover{
+    background-color: gray;
+    color: black;
+}
+
+.botao-info i{
+    margin-right: 12px;
+}
+
+/*index*/
+.index-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url('../img/filmes/capa-agencia-secreta.jpg');
+
+    height: 800px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.index-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.index-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.index-principal .container{
+    width: 80%;
+}
+
+/*filme-principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url('../img/filmes/capa-raya.jpg');
+
+    height: 800px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+.carrousel-filme{
+    margin: 10px;
+}
+
+.carrousel-filme h3{
+    font-family: 'Arial', Times, serif;
+    margin-bottom: 5px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+main a:hover{
+    color: #AAA;
+}
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.box-filme:hover {
+    transform: rotateY(180deg);
 }
 
 /*serie-principal*/
 .serie-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url('../img/capa-TeenTitans.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url('../img/series/capa-teen-titans.jpg');
 
-    height: 400px;
+    height: 800px;
     background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
 
     display: flex;
     flex-direction: column;
@@ -60,39 +204,13 @@ header nav a:hover{
 }
 
 .serie-principal .titulo{
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container{
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
 .serie-principal .container{
     width: 80%;
-}
-
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao:hover{
-    background-color: white;
-    color: black;
-}
-
-.botao i{
-    margin-right: 8px;
 }
 
 .box-serie{
@@ -101,8 +219,15 @@ header nav a:hover{
     display: block;
 }
 
-.carrousel-series{
-    margin-top: 10px;
+.box-serie:hover {
+    transform: rotateY(180deg);
 }
 
+.carrousel-series{
+    margin: 10px;
+}
 
+.carrousel-series h3{
+    font-family: 'Arial', Times, serif;
+    margin-bottom: 5px;
+}
